@@ -1,0 +1,37 @@
+html {
+    /* color-scheme: light dark; */
+    background-color:#eddff0;
+  }
+  
+  body {
+    margin: 3rem;
+    font-size: 2rem;
+    font-family: system-ui;
+  }
+  .imgc {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    height: 80vh; /* Set container height as needed */
+}
+  
+  .quick-example {
+    margin: 1rem;
+    padding: 1rem;
+    background: #7f7e80;
+    border-radius: 0.5rem;
+  
+    display: grid;
+    grid-template-rows: 0fr;
+    transition: grid-template-rows 500ms;
+  }
+  
+  .quick-example > div {
+    overflow: hidden;
+  }
+  
+  .quick-example:hover {
+    grid-template-rows: 1fr;
+  }
+  
+  
